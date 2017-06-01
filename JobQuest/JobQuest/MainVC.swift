@@ -9,12 +9,21 @@
 import UIKit
 
 
+
 class MainVC: UIViewController {
+    
+    let loginButton: FBSDKLoginButton = {
+        let button = FBSDKLoginButton()
+        button.readPermissions = ["email"]
+        return button
+    }()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
-        // Do any additional setup after loading the view.
     }
 
     
@@ -36,5 +45,10 @@ class MainVC: UIViewController {
         self.resignFirstResponder()
     }
 
+    @IBAction func fbBtnTapped(_ sender: Any) {
 
-}
+    }
+
+    
+    
+    }

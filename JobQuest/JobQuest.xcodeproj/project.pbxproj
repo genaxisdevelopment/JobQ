@@ -41,7 +41,7 @@
 		930CEC8B1EC1C2310085EC51 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CEC8A1EC1C2310085EC51 /* MainVC.swift */; };
 		932D29CF1ED51D6C00E23470 /* FeedsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D29CE1ED51D6C00E23470 /* FeedsTableViewCell.swift */; };
 		932D29D11ED69D9D00E23470 /* FeedsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D29D01ED69D9D00E23470 /* FeedsTableViewController.swift */; };
-		93A02AB41EC9593B004BE902 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93A02AB31EC9593B004BE902 /* GoogleService-Info.plist */; };
+		93B4D7731EDE70BF00967C8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B4D7721EDE70BE00967C8A /* GoogleService-Info.plist */; };
 		93E5ADD61EBAAE17006A2925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5ADD51EBAAE17006A2925 /* AppDelegate.swift */; };
 		93E5ADDB1EBAAE17006A2925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E5ADD91EBAAE17006A2925 /* Main.storyboard */; };
 		93E5ADDE1EBAAE17006A2925 /* JobQuest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93E5ADDC1EBAAE17006A2925 /* JobQuest.xcdatamodeld */; };
@@ -111,7 +111,7 @@
 		930CEC8A1EC1C2310085EC51 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		932D29CE1ED51D6C00E23470 /* FeedsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsTableViewCell.swift; sourceTree = "<group>"; };
 		932D29D01ED69D9D00E23470 /* FeedsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsTableViewController.swift; sourceTree = "<group>"; };
-		93A02AB31EC9593B004BE902 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93B4D7721EDE70BE00967C8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93E5ADD21EBAAE17006A2925 /* JobQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E5ADD51EBAAE17006A2925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93E5ADDA1EBAAE17006A2925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -263,7 +263,7 @@
 				93E5ADDF1EBAAE17006A2925 /* Assets.xcassets */,
 				93E5ADE11EBAAE17006A2925 /* LaunchScreen.storyboard */,
 				93E5ADE41EBAAE17006A2925 /* Info.plist */,
-				93A02AB31EC9593B004BE902 /* GoogleService-Info.plist */,
+				93B4D7721EDE70BE00967C8A /* GoogleService-Info.plist */,
 				93E5ADDC1EBAAE17006A2925 /* JobQuest.xcdatamodeld */,
 				930CEC8A1EC1C2310085EC51 /* MainVC.swift */,
 				93090A481ED3E05700E34252 /* WelcomeVC.swift */,
@@ -405,7 +405,7 @@
 				93E5ADE01EBAAE17006A2925 /* Assets.xcassets in Resources */,
 				93E5ADDB1EBAAE17006A2925 /* Main.storyboard in Resources */,
 				930CEC781EC167B60085EC51 /* LoadingView.xib in Resources */,
-				93A02AB41EC9593B004BE902 /* GoogleService-Info.plist in Resources */,
+				93B4D7731EDE70BF00967C8A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,7 +755,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W3WYFXKK33;
 				INFOPLIST_FILE = JobQuest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = genaxis.com.my.JobQuest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -771,7 +771,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W3WYFXKK33;
 				INFOPLIST_FILE = JobQuest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = genaxis.com.my.JobQuest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
